@@ -1,0 +1,18 @@
+crypto-account-splitter/
+├── cmd/
+│   └── main.go
+├── internal/
+│   ├── account/
+│   │   ├── account.go
+│   │   ├── service.go
+│   │   ├── types.go
+│   │   └── strategy/
+│   │       ├── strategy.go
+│   │       ├── split_strategy.go
+│   │       └── consolidate_strategy.go
+│   ├── keygen/
+│   │   ├── keygen.go
+│   │   └── address.go
+│   └── util/
+│       └── util.go
+└── go.mod
